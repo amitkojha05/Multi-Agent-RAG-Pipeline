@@ -1,0 +1,24 @@
+[
+  {
+    "id": "q001",
+    "question": "What temperature optimises enzyme activity in the sample dataset?",
+    "expected_answer_keywords": ["37", "37\u00b0c", "optimal", "temperature"],
+    "expected_sources": ["sample_dataset.csv"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "q002",
+    "question": "According to the ingested papers, what is the role of CRISPR in gene editing?",
+    "expected_answer_keywords": ["cas9", "dna", "cut", "guide rna", "genome"],
+    "expected_sources": ["crispr_paper.pdf"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "q003",
+    "question": "What is the relationship between Jennifer Doudna and CRISPR research?",
+    "expected_answer_keywords": ["doudna", "crispr", "developed", "awarded"],
+    "expected_sources": ["crispr_paper.pdf"],
+    "difficulty": "graph"
+  }
+]
+
